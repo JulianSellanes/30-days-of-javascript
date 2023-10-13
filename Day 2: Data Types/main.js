@@ -48,40 +48,38 @@ nums[0] = 10;
 
 //Non-primitive data types cannot be compared by value, they are compared by reference
 
+
 //No / false:
 
-/*
-let nums = [1, 2, 3];
-let numbers = [1, 2, 3];
+let a = [1, 2, 3];
+let b = [1, 2, 3];
 
-console.log(nums == numbers);
+//console.log(a == b);
 
-let userOne = {
+let userA = {
     name: `Noa`
 }
 
-let userTwo = {
+let userB = {
     name: `Noa`
 }
 
-console.log(userOne == userTwo);
-*/
+//console.log(userA == userB);
+
 
 
 
 //Yes / true:
 
-/*
-let nums = [1, 2, 3];
-let numbers = nums;
+let c = [1, 2, 3];
+let d = c;
 
-console.log(nums == numbers);
+//console.log(c == d);
 
-let userOne = {
+let userC = {
     name: `Noa`
 }
 
-let userTwo = userOne;
+let userD = userC;
 
-console.log(userOne == userTwo);
-*/
+//console.log(userC == userD);
