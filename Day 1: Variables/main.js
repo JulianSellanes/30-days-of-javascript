@@ -36,4 +36,4 @@ console.log(PI);
 
 let a = 1, b = 3.5, c = `Hi`;
 
-console.log(a, b, c);
+//console.log(a, b, c);
