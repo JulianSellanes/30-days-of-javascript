@@ -51,5 +51,5 @@ let b = Math.random() * 10; //between 0 and 10
 let c = Math.random() * 100; //between 0 and 100
 let d = Math.floor(Math.random()); //0
 let e = Math.floor(Math.random() * 10); //whole number between 0 and 10
-let f = Math.floor((Math.random() * 10) + 1); //whole number between 1 and 10
+let f = Math.floor(Math.random() * 10) + 1; //whole number between 1 and 10
 //console.log(f);
