@@ -185,31 +185,3 @@ let income = parseInt(count[0]);
 let income2 = parseInt(count[1]);
 let income3 = parseInt(count[2]);
 //console.log(`Total income: ${income + income2 + income3}`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
