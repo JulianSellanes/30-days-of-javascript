@@ -4,13 +4,17 @@ const key = document.querySelector(`#key`);
 const middleDiv = document.querySelector(`.middleDiv`);
 const codeText = document.querySelector(`#codeText`);
 
-document.body.addEventListener(`keypress`, e => {
+document.body.addEventListener(`keydown`, e => {
     updateTexts(e);
 });
 
 const updateTexts = (event) =>
 {
-    key.textContent = event.key;
+    if(event.key === ` `)
+        key.textContent = `Space`;
+    else
+        key.textContent = event.key;
+
     codeText.textContent = event.keyCode;
 
     text1.style.display = `none`;
